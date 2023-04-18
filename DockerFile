@@ -4,4 +4,4 @@ COPY task1.js package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 5000
-CMD npm run x
+CMD node task1.js
